@@ -5,7 +5,7 @@ DATETIME=$(date '+%Y%m%d%H%M%S')
 
 
 #Generate random password
-genpasswd() {
+genpasswd(test@123) {
 	length=$1
 	digits=({1..9})
 	lower=({a..z})
