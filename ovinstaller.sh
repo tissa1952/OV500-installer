@@ -12,7 +12,7 @@ genpasswd() {
 	upper=({A..Z})
 	CharArray=(${digits[*]} ${lower[*]} ${upper[*]})
 	ArrayLength=${#CharArray[*]}
-	password=""
+	password="test@123"
 	for i in `seq 1 $length`
 	do
 	        index=$(($RANDOM%$ArrayLength))
